@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Eligibility</title>
+</head>
+<body>
+    <h1>Loan Eligibility Checker</h1>
+    <form action="/predict" method="post">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required><br><br>
+        <label for="income">Income:</label>
+        <input type="text" id="income" name="income" required><br><br>
+        <label for="loan_amount">Loan Amount:</label>
+        <input type="text" id="loan_amount" name="loan_amount" required><br><br>
+        <label for="credit_score">Credit Score:</label>
+        <input type="text" id="credit_score" name="credit_score" required><br><br>
+        <input type="submit" value="Check Eligibility">
+    </form>
+</body>
+</html>
